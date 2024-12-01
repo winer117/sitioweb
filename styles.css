@@ -1,0 +1,128 @@
+/* General */
+body {
+    font-family: Arial, sans-serif;
+    /* Fuente principal del texto. */
+    margin: 0;
+    /* Eliminamos márgenes predeterminados del navegador. */
+    padding: 0;
+    /* Eliminamos relleno predeterminado del navegador. */
+    line-height: 1.6;
+    /* Ajustamos la altura de las líneas para una mejor legibilidad. */
+    background-color: #f9f9f9;
+    /* Color de fondo de la página. */
+    color: #333;
+    /* Color principal del texto. */
+  }
+  
+  /* Header */
+  header {
+    background-color: #333;
+    /* Fondo oscuro para el encabezado. */
+    color: #fff;
+    /* Texto blanco para contrastar con el fondo. */
+    padding: 20px 0;
+    /* Espaciado interno superior e inferior de 20px. */
+    text-align: center;
+    /* Centra el texto dentro del encabezado. */
+  }
+  
+  header h1 {
+    margin: 0;
+    /* Eliminamos márgenes del título principal. */
+    font-size: 2.5em;
+    /* Tamaño de fuente del título. */
+  }
+  
+  header p {
+    margin: 5px 0 0;
+    /* Margen superior de 5px, sin márgenes inferior y lateral. */
+    font-size: 1.2em;
+    /* Tamaño de fuente de la descripción. */
+  }
+  
+  /* Blog Container */
+  .pagina-container {
+    display: grid;
+    /* Usamos un sistema de cuadrícula para organizar las entradas. */
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    /* Las columnas se ajustan automáticamente para adaptarse al tamaño disponible. */
+    gap: 20px;
+    /* Espaciado entre las entradas. */
+    max-width: 1200px;
+    /* Ancho máximo del contenedor. */
+    margin: 20px auto;
+    /* Centra el contenedor horizontalmente con márgenes automáticos. */
+    padding: 10px;
+    /* Espaciado interno de 10px. */
+  }
+  
+ 
+  .pagina-entry {
+    background-color: #fff;
+    /* Fondo blanco para cada entrada (columna). */
+    border: 1px solid #ddd;
+    /* Borde gris claro para cada columna. */
+    border-radius: 7px;
+    /* Bordes redondeados. */
+   
+    overflow: hidden;
+    /* nos permite que el contenido se ajuste  y no se desborde. */
+  }
+  
+  .pagina-entry img {
+    width: 100%;
+    /* La imagen ocupa todo el ancho de la entrada. */
+    height: auto;
+    /* Ajuste proporcional de altura. */
+  }
+  
+  .pagina-entry h2 {
+    font-size: 1.5em;
+    /* Tamaño de fuente del título de la entrada. */
+    margin: 10px;
+    /* Márgenes internos del título. */
+  }
+  
+  .pagina-entry p {
+    padding: 0 10px 10px;
+    /* Espaciado interno en los lados y parte inferior del texto. */
+    font-size: 1em;
+    /* Tamaño estándar del texto. */
+  }
+  
+  .mas-imagenes {
+    display: block;
+    /* Hace que el enlace ocupe todo el ancho. */
+    text-align: center;
+    /* Centra el texto del enlace. */
+    padding: 10px;
+    /* Espaciado interno del enlace. */
+    margin: 10px;
+    /* Márgenes externos para separarlo de otros elementos. */
+    background-color: #007bff;
+    /* Color azul para el botón. */
+    color: #fff;
+    /* Texto blanco para el botón. */
+    text-decoration: none;
+    /* Elimina el subrayado del enlace. */
+    border-radius: 5px;
+    /* Bordes redondeados del botón. */
+  }
+  
+  .mas-imagenes:hover {
+    background-color: #0056b3;
+    /* Cambia a un azul más oscuro al pasar el mouse sobre el enlace. */
+  }
+  
+
+  footer {
+    background-color: #333;
+    /* Fondo oscuro para el pie de página. */
+    color: #fff;
+    /* Texto blanco para el pie de página. */
+    text-align: center;
+    /* Centra el texto del pie de pagina */
+    padding: 10px 0;
+    /* Espaciado interno superior e inferior. */
+  }
+  
